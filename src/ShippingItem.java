@@ -8,6 +8,6 @@ public class ShippingItem {
   
   public double getCost() {
     /* TO BE IMPLEMENTED IN PART A */
-    return weight + COST_PER_OZ;
+    return weight * COST_PER_OZ;
   }
 }

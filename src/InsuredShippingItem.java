@@ -10,7 +10,7 @@ public class InsuredShippingItem extends ShippingItem {
   @Override
   public double getCost() {
     /* TO BE IMPLEMENTED IN PART C */
-    return insuredAmount + getCost();
+    return insuredAmount + super.getCost();
   }
   
   public void addMoreInsurance(double amt) {
